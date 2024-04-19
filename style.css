@@ -14,3 +14,6 @@ Text Domain: cm-blocks
 Tags: full-site-editing, 
 */
 
+.body{
+    background-attachment: fixed;
+}
