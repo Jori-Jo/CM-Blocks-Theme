@@ -1,0 +1,33 @@
+/* Button - Outline Style
+--------------------------------------------- */
+
+.wp-block-button.is-style-outline .wp-block-button__link {
+	background-color: transparent;
+	color: var(--wp--preset--color--custom-button-color);
+	padding: 8px 28px 8px 28px;
+	border: 3px solid var(--wp--preset--color--custom-button-color);
+
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link:hover {
+	color:white;
+	background-color: var(--wp--preset--color--custom-button-color);
+	border-color: var(--wp--preset--color--custom-button-color);
+	border: 3px solid var(--wp--preset--color--custom-button-color);
+}
+
+/* Button - Secondary Style
+--------------------------------------------- */
+
+.is-style-secondary-button .wp-element-button,
+.wp-block.is-style-secondary-button .wp-element-button {
+	background: var(--wp--preset--color--tertiary);
+	color: var(--wp--preset--color--primary);
+	font-size: var(--wp--preset--font-size--small);
+}
+
+.is-style-secondary-button:hover .wp-element-button,
+.wp-block.is-style-secondary-button:hover .wp-element-button {
+	background: var(--wp--preset--color--tertiary);
+	color: var(--wp--preset--color--primary);
+}
