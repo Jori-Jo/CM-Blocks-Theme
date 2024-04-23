@@ -14,3 +14,90 @@ Text Domain: cm-blocks
 Tags: full-site-editing, 
 */
 
+@media only screen and (max-width: 781px)
+{
+.cm-features 
+.wp-block-column.is-vertically-aligned-center.cm-features__heading
+{
+  align-items: center;
+  display: flex;
+  flex-direction: column;	
+  margin-bottom: 20px;
+}
+
+.cm-features
+.wp-block-column.is-vertically-aligned-center.cm-features__content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cm-download.wp-block-group .alignwide.cm-download__content
+{
+justify-content:center;
+}
+
+.cm-download
+.wp-block-group.alignwide.cm-download__content
+.wp-block-group
+.wp-block-heading.has-text-align-left.cm-download__heading
+{
+display:flex;
+justify-content:center;
+}
+
+.cm-FAQ
+.wp-block-group.alignwide
+.wp-block-columns.alignwide
+.wp-block-column.is-vertically-aligned-center.cm-FAQ__content{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+.cm-FAQ
+.wp-block-group.alignwide
+.wp-block-columns.alignwide
+.wp-block-column.is-vertically-aligned-center.cm-FAQ__content
+.cm-FAQ__paragraph{
+text-align:center;
+}
+
+.cm-slider__features
+.wp-block-column.is-vertically-aligned-center.cm-slider__features.heading
+{
+text-align:center;
+}
+
+.cm-slider__features.wp-block-column.cm-slider__features.text{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cm-slider__features.wp-block-column.cm-slider__features.text
+.cm-slider__features.desc{
+  text-align:center;
+}
+
+.cm-slider__heading
+.wp-block-columns.alignwide.cm-slider__heading.content
+{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.cm-slider__heading
+.cm-slider__heading.content
+.wp-block-column
+{
+ text-align:center;
+}
+
+.cm-slider__heading
+.cm-slider__heading.content
+.wp-block-buttons{
+display:flex;
+  justify-content: center;
+}
+}

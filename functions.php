@@ -22,3 +22,4 @@ foreach ( $files as $file ) {
 }
 }
 add_action( 'init', __NAMESPACE__ . '\enqueue_custom_block_styles' );
+

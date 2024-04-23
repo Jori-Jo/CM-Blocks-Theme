@@ -1,0 +1,11 @@
+.wp-block-navigation-item.current-menu-item.wp-block-navigation-link a {
+    color: var(--wp--preset--color--custom-button-color);
+}
+
+.wp-block-navigation-item.has-child.open-on-hover-click.current-menu-item.wp-block-navigation-submenu {
+    color: var(--wp--preset--color--custom-button-color);
+}
+
+.wp-block-navigation-item.has-child.open-on-hover-click.wp-block-navigation-submenu .current-menu-ancestor {
+    color: var(--wp--preset--color--custom-button-color);
+}
